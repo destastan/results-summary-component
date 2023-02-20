@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="results-window">
+      <div class="score-header-container">
+        <h3 id="your-result">Your Result</h3>
+        <div class="total-score-container">
+          <h1 id="total-score">76</h1>
+          <p id="sub-score">of 100</p>
+        </div>
+        <div class="bottom-text-container">
+          <h2>Great</h2>
+          <p id="stat-text">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+
+      <div class="summary-container">
+        <h3 id="summary-text">Summary</h3>
+        <div class="sub-category-container" id="reaction-container">
+          <div class="icon-container">
+            <img src="./assets/images/icon-reaction.svg" alt="Reaction icon" />
+            <h5 id="reaction-text">Reaction</h5>
+          </div>
+          <div class="sub-score-container">
+            <h4 class="em-text">80&nbsp;</h4>
+            <h4>/ 100</h4>
+          </div>
+        </div>
+        <div class="sub-category-container" id="memory-container">
+          <div class="icon-container">
+            <img src="./assets/images/icon-memory.svg" alt="" />
+            <h5 id="memory-text">Memory</h5>
+          </div>
+          <div class="sub-score-container">
+            <h4 class="em-text">92&nbsp;</h4>
+            <h4>/ 100</h4>
+          </div>
+        </div>
+        <div class="sub-category-container" id="verbal-container">
+          <div class="icon-container">
+            <img src="./assets/images/icon-verbal.svg" alt="" />
+            <h5 id="verbal-text">Verbal</h5>
+          </div>
+          <div class="sub-score-container">
+            <h4 class="em-text">61&nbsp;</h4>
+            <h4>/ 100</h4>
+          </div>
+        </div>
+        <div class="sub-category-container" id="visual-container">
+          <div class="icon-container">
+            <img src="./assets/images/icon-visual.svg" alt="" />
+            <h5 id="visual-text">Visual</h5>
+          </div>
+          <div class="sub-score-container">
+            <h4 class="em-text">72&nbsp;</h4>
+            <h4>/ 100</h4>
+          </div>
+        </div>
+        <button class="continue">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
